@@ -139,7 +139,7 @@ def main():
                   type='string',
                   dest="typespec",
                   action='callback',
-                  help="arff types list. e.g: NOMINAL,REAL,INTEGER,INTEGER",
+                  help="arff types list. e.g: NUMERIC,STRING,NOMINAL,REAL,INTEGER",
                   callback=types_callback)
 
     parser.add_option('-a', '--attributes',
