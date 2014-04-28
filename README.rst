@@ -40,7 +40,7 @@ install csv_to_arff::
 csv to Arff script
 -------------------
 
-To be able to convert a csv to Arff file, you must suplly the list of arff types, the name of the relation, and te file input::
+To be able to convert a csv to Arff file, you must supply the list of arff types, the name of the relation, and the file input::
 
 
 	>csv_to_arff.py -t NOMINAL,STRING,INTEGER -f input.csv -r my_relation
